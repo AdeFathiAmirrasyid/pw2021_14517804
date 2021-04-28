@@ -72,7 +72,7 @@ function cari($keyword)
   $conn = koneksi();
   $query = "SELECT * FROM mahasiswa
     WHERE nama LIKE '%$keyword%' OR
-    nrp LIKE '%$keyword%'";
+    nrp  LIKE '%$keyword%'";
 
   $result = mysqli_query($conn, $query);
 
