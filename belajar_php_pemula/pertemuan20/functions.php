@@ -62,14 +62,14 @@ if( !in_array($ektensiGambar,$ektensiGambarValid)){
 
     }
 //  cek jika jika ukurannya terlalu besar
-// if($nameFile > 5000000){
-//     echo "
-//     <script>
-//     alert('Ukuran terlalu besar!'); 
-//     </script>
-//     ";
-//     return false;
-//     }
+if($nameFile > 5000000){
+    echo "
+    <script>
+    alert('Ukuran terlalu besar!'); 
+    </script>
+    ";
+    return false;
+    }
 
 
 // Lolos pengecekan, gambar siap di upload
