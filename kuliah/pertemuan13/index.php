@@ -71,7 +71,7 @@ if (isset($_POST['cari'])) {
       <?php endforeach; ?>
     </table>
   </div>
-  <script src="js/script13.js"></script>
+  <script src="js/script13.js"></script> 
 </body>
 
 </html>
